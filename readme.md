@@ -3,6 +3,8 @@
 - Generate / Filter WODs from Catalog
 - Whitelist Equipment - Get only matching workouts
 - Blacklist excercises you're not confident with yet
+- Catalog -> Permalink
+- Export (img with content + permalink)
 
 ## TODO
 
