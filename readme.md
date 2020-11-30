@@ -19,3 +19,8 @@
   * Boxjump-Box
   * Jump rope
 * WOD-Catalog
+
+## Brainstorming
+
+* https://www.flaticon.com/packs/gym-and-fitness?word=fitness -> Rowing missing
+ * https://www.flaticon.com/free-icon/rowing_820912?term=row&page=1&position=25&related_item_id=820912 matching?
