@@ -1,0 +1,30 @@
+[{
+    "name": "",
+    "description": "Perform on time",
+    "excercises": [
+        "500m Row",
+        "50 Squats",
+        "400m Row",
+        "40 Sit Ups",
+        "300m Row",
+        "30 Push Ups",
+        "200m Row",
+        "20 Lunges",
+        "100m Row",
+        "10 Burpees"
+    ],
+    "requirements": [
+        "rowing-machine"
+    ]
+}, {
+    "name": "Helen",
+    "description": "3 Rounds for Time",
+    "excercises": [
+        "400m Run",
+        "21 KB Swings",
+        "12 Pull-Ups"
+    ],
+    "requirements": [
+        "kettlebell"
+    ]
+}]
