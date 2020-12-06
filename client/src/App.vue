@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="px-1">
     <!-- Header -->
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
@@ -9,6 +9,7 @@
           aria-label="menu"
           aria-expanded="false"
           data-target="navbarBasicExample"
+          v-on:click="showNav = !showNav" v-bind:class="{ 'is-active' : showNav }"
         >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -16,7 +17,7 @@
         </a>
       </div>
 
-      <div id="navbarBasicExample" class="navbar-menu">
+      <div id="navbarBasicExample" class="navbar-menu" v-bind:class="{ 'is-active' : showNav }">
         <div class="navbar-start">
           <a class="navbar-item" v-on:click="refresh">Refresh</a>
           <a class="navbar-item" v-on:click="settings">Settings</a>
@@ -60,6 +61,7 @@ export default {
   name: "App",
   data() {
     return {
+      showNav: false,
       wod: {},
     };
   },
@@ -96,5 +98,10 @@ export default {
   margin: auto;
   margin-top: 3rem;
   max-width: 700px;
+}
+
+.px-1 {
+  padding-left: 1em;
+  padding-right: 1em;
 }
 </style>
