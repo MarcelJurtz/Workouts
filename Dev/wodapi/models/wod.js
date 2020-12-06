@@ -7,6 +7,8 @@ const WodSchema = new Schema({
     description: {
         type: String
     },
+    excercises: Array,
+    equipment: Array,
     created: {
         type: Date,
         default: Date.now
