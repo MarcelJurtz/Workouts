@@ -1,56 +1,42 @@
 <template>
-  <div id="app" class="px-1">
-    <!-- Header -->
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a
-          role="button"
-          class="navbar-burger burger"
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbarBasicExample"
-          v-on:click="showNav = !showNav" v-bind:class="{ 'is-active' : showNav }"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-
-      <div id="navbarBasicExample" class="navbar-menu" v-bind:class="{ 'is-active' : showNav }">
-        <div class="navbar-start">
-          <a class="navbar-item" v-on:click="refresh">Refresh</a>
-          <a class="navbar-item" v-on:click="settings">Settings</a>
-
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link"> More </a>
-
-            <div class="navbar-dropdown">
-              <a href="https://www.mjurtz.com/Impressum.html" class="navbar-item"> Imprint </a>
-              <a href="https://www.mjurtz.com/Datenschutzerklaerung.html" class="navbar-item"> Privacy </a>
-              <a href="mailto:jurtzmarcel@gmail.com" class="navbar-item"> Contact </a>
-            </div>
+  <div id="app" class="main px-3">
+    <div class="content">
+      <!-- Header -->
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div id="navbarBasicExample" class="navbar-menu is-shadowless" >
+          <div class="navbar-start">
+            <a class="navbar-item" v-on:click="refresh">Refresh</a>
+            <a class="navbar-item" v-on:click="settings">Settings</a>
           </div>
         </div>
+      </nav>
+      <!-- /Header -->
+      <div v-if="wod" class="wod-container">
+        <h1 class="title is-1 mt-2">
+          {{ wod.name ? wod.name : "Todays Workout" }}
+        </h1>
+        <div class="wod">
+          <p class="subtitle is-3">{{ wod.description }}</p>
+          <ul class="ul-container" id="wod-elements">
+            <li v-for="item in wod.excercises" :key="item">
+              {{ item }}
+            </li>
+          </ul>
+        </div>
       </div>
-    </nav>
-    <!-- /Header -->
-    <div v-if="wod" class="wod-container">
-      <h1 class="title is-1 mt-2">
-        {{ wod.name ? wod.name : "Todays Workout" }}
-      </h1>
-      <div class="wod">
-        <p class="subtitle is-3">{{ wod.description }}</p>
-        <ul class="ul-container" id="wod-elements">
-          <li v-for="item in wod.excercises" :key="item">
-            {{ item }}
-          </li>
-        </ul>
+      <div v-else>
+        <p>No workouts found!</p>
       </div>
     </div>
-    <div v-else>
-      <p>No workouts found!</p>
-    </div>
+    <footer class="footer">
+      <div class="content is-transparent has-text-centered">
+        <p>
+          <strong>WOD Generator</strong> by <a href="https://mjurtz.com">Marcel Jurtz</a> | 
+          <a href="https://www.mjurtz.com/Impressum.html"> Imprint </a> |
+          <a href="https://www.mjurtz.com/Datenschutzerklaerung.html"> Privacy </a>
+        </p>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -96,12 +82,56 @@ export default {
 #app {
   font-family: "PermanentMarker", Helvetica, Arial, sans-serif;
   margin: auto;
-  margin-top: 3rem;
   max-width: 700px;
 }
 
-.px-1 {
-  padding-left: 1em;
-  padding-right: 1em;
+.main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content {
+  margin-top: 3rem;
+  flex: 1;
+}
+
+.footer {
+  background-color: transparent;
+}
+
+/* Navbar workaround */
+.navbar-item {
+  display: flex;
+}
+
+.navbar,
+.navbar-menu,
+.navbar-start,
+.navbar-end {
+  align-items: stretch;
+  display: flex;
+  padding: 0;
+}
+
+.navbar-menu{
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.navbar-start{
+  justify-content: flex-start;
+  margin-right: auto;
+}
+.navbar-end{
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.navbar .container {
+  display: flex;
+}
+.navbar-item {
+  display: flex;
+  align-items: center;
 }
 </style>
