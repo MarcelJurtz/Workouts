@@ -1,36 +1,12 @@
 # Crossfit Workout Generator
 
-- Generate / Filter WODs from Catalog
-- Whitelist Equipment - Get only matching workouts
-- Blacklist excercises you're not confident with yet
-- Catalog -> Permalink
-- Export (img with content + permalink)
+I always had the problem that I was looking for WODs to do at home, but wasn't really motivated to sort out any workouts from catalogs by equipment that's available to me.
+This is currently a WIP to take that work off of me. There's a [wod-gen.herokuapp.com](live demo) available. Right now, the random selection of workouts from the catalog work,
+the filtering by equipment is not yet implemented. Also, ATM I only have a few benchmark WODs implemented. More to come. Promised.
 
-## TODO
+## TODO / Roadmap / Open Ideas
 
-* Techstack
-* Domain
-* Icons for Excercise Filters
-  * Barbell
-  * Dumbbell
-  * Kettlebell
-  * Pullup-Rack
-  * Rowingmachine
-  * Stationary Bike (Airbike, Indoortrainer)
-  * Wallball
-  * Boxjump-Box
-  * Jump rope
-* WOD-Catalog
-
-## Brainstorming
-
-* https://www.flaticon.com/packs/gym-and-fitness?word=fitness -> Rowing missing
- * https://www.flaticon.com/free-icon/rowing_820912?term=row&page=1&position=25&related_item_id=820912 matching?
-
-
-
-### VueJS Course
-
-https://www.youtube.com/watch?v=vr6O-IYebXA
-
--> 18:02
+* Filter WOD by Equipment
+* Blacklist for specific excercises
+* Implement permalinks to api for sharing wods
+* Export-Option as Image (?) with Permalink for Social Media Sharing
