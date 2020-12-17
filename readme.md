@@ -10,3 +10,4 @@ the filtering by equipment is not yet implemented. Also, ATM I only have a few b
 * Blacklist for specific excercises
 * Implement permalinks to api for sharing wods
 * Export-Option as Image (?) with Permalink for Social Media Sharing + Customizable Background
+* Ignore current WOD when fetching a new random one
