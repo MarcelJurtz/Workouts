@@ -4,6 +4,12 @@ const WodSchema = new Schema({
     name: {
         type: String
     },
+    permalink: {
+        type: String
+    },
+    tag: {
+        type: String
+    },
     description: {
         type: String
     },

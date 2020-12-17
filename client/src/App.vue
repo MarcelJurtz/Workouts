@@ -5,28 +5,14 @@
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div id="navbarBasicExample" class="navbar-menu is-shadowless" >
           <div class="navbar-start">
-            <a class="navbar-item" v-on:click="refresh">Refresh</a>
-            <a class="navbar-item" v-on:click="settings">Settings</a>
+            <a class="navbar-item" v-bind:class="{ disabled: settingsActive }" v-on:click="refresh">Refresh</a>
+            <a class="navbar-item" v-on:click="toggleSettings">{{ SettingsButtonText }}</a>
           </div>
         </div>
       </nav>
       <!-- /Header -->
-      <div v-if="wod" class="wod-container">
-        <h1 class="title is-1 mt-2">
-          {{ wod.name ? wod.name : "Todays Workout" }}
-        </h1>
-        <div class="wod">
-          <p class="subtitle is-3">{{ wod.description }}</p>
-          <ul class="ul-container" id="wod-elements">
-            <li v-for="item in wod.excercises" :key="item">
-              {{ item }}
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div v-else>
-        <p>No workouts found!</p>
-      </div>
+      <app-wod v-show=!settingsActive></app-wod>
+      <app-settings v-show=settingsActive></app-settings>
     </div>
     <footer class="footer">
       <div class="content is-transparent has-text-centered">
@@ -41,32 +27,31 @@
 </template>
 
 <script>
-import axios from "axios";
 
 export default {
   name: "App",
   data() {
     return {
       showNav: false,
-      wod: {},
+      settingsActive: false
     };
-  },
-  async mounted() {
-    const response = await axios.get("api/wod/random");
-    this.wod = response.data;
   },
   methods: {
     refresh: function () {
-      axios.get("api/wod/random").then((response) => {
-        this.wod = response.data;
-        console.log(response);
-      });
+      if(!this.settingsActive) {
+        this.$store.dispatch("getWod");
+      }
     },
 
-    settings: function () {
-      alert("Sorry, not yet implemented");
+    toggleSettings: function () {
+      this.settingsActive = !this.settingsActive
     },
   },
+  computed: {
+    SettingsButtonText: function() {
+      return this.settingsActive ? "WOD" : "Settings";
+    }
+  }
 };
 </script>
 
@@ -74,7 +59,7 @@ export default {
 @font-face {
   font-family: "PermanentMarker";
   src: local("PermanentMarker"), local("PermanentMarker-Regular"),
-    url("assets/PermanentMarker-regular.ttf") format("truetype");
+    url("./assets/PermanentMarker-regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
@@ -134,4 +119,10 @@ export default {
   display: flex;
   align-items: center;
 }
+
+a.disabled {
+  pointer-events: none;
+  opacity: .65;
+}
+
 </style>
