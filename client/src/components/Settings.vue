@@ -27,15 +27,18 @@ export default {
     return {
       whitelist: [],
       equipment: [
+        { id: "airbike", name: "Airbike" },
         { id: "barbell", name: "Barbell" },
         { id: "bench", name: "Barbell-Bench" },
         { id: "boxjump", name: "Boxjump" },
+        { id: "dumbbell", name: "Dumbbell" },
         { id: "kettlebell", name: "Kettlebell" },
-        { id: "pool", name: "Pool" },
+        { id: "pool", name: "Pool / Any option to swim" },
         { id: "pullupbar", name: "Pull-Up-Bar" },
         { id: "rings", name: "Rings" },
         { id: "rower", name: "Rowing Ergometer" },
         { id: "skippingrope", name: "Skipping rope" },
+        { id: "track", name: "Track / Any option to run" },
         { id: "wallball", name: "Wallball" }
       ],
     };
@@ -70,15 +73,18 @@ export default {
   },
   mounted() {
     this.whitelist = [
+      "airbike",
       "barbell",
       "bench",
       "boxjump",
+      "dumbbell",
       "kettlebell",
       "pool",
       "pullupbar",
       "rings",
       "rower",
       "skippingrope",
+      "track",
       "wallball"
     ]
   }
