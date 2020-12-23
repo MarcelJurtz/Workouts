@@ -61,6 +61,17 @@ router.get('/query', async(req, res) => {
     }
 })
 
+router.get('/permalink', async(req, res) => {
+    try {
+        var link = req.query.link;
+        const wod = await Wod.findOne({ permalink: link });
+        if (!wod) throw new Error("No wod found!")
+        res.status(200).json(wod);
+    } catch (error) {
+        res.status(500).json({ message: error.message })
+    }
+})
+
 router.post('/', async(req, res) => {
     const newWod = new Wod(req.body)
     try {

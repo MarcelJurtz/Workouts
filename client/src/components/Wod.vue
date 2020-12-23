@@ -1,6 +1,6 @@
 <template>
     <div class="wod-container">
-        <div v-if="wod">
+        <div v-if="!isLoading && wod">
         <h1 class="title is-1 mt-2">
             {{ wod.name ? wod.name : "Todays Workout" }}
         </h1>
@@ -14,31 +14,41 @@
             </ul>
         </div>
         </div>
-        <div v-else>
+        <div v-else-if="!isLoading">
             <p>No workouts found!</p>
+        </div>
+        <div v-else>
+          <spinner />
         </div>
     </div>
 </template>
 
 <script>
-// import axios from "axios";
+import spinner from "./Spinner"
 
 export default {
   name: "App",
+  components: { spinner },
   data: function() {
     return {
       blacklistedEquipment: [],
-      showNav: false
+      showNav: false,
+      isLoading: false
     };
   },
-  mounted() {
-    this.$store.dispatch("getWod");
+  async mounted() {
+    await this.$store.dispatch("getWod");
   },
   computed: {
     wod() {
         return this.$store.state.wod
     }
   },
+  watch: {
+    '$store.state.wodLoading': function() {
+      this.isLoading = this.$store.state.wodLoading;
+    }
+  }
 };
 </script>
 

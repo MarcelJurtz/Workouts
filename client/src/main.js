@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import Vuex from 'vuex'
 import store from './store'
+import router from './router'
 
 // Components
 import Wod from './components/Wod.vue'
@@ -14,6 +15,7 @@ Vue.component('app-wod', Wod);
 Vue.component('app-settings', Settings);
 
 new Vue({
+    router,
     store,
     render: h => h(App)
 }).$mount('#app')

@@ -5,7 +5,7 @@
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div id="navbarBasicExample" class="navbar-menu is-shadowless" >
           <div class="navbar-start">
-            <a class="navbar-item" v-bind:class="{ disabled: settingsActive }" v-on:click="refresh">Refresh</a>
+            <a class="navbar-item" v-bind:class="{ disabled: refreshDisabled }" v-on:click="refresh">Refresh</a>
             <a class="navbar-item" v-on:click="toggleSettings">{{ SettingsButtonText }}</a>
           </div>
         </div>
@@ -21,6 +21,7 @@
           <a href="https://www.mjurtz.com/Impressum.html"> Imprint </a> |
           <a href="https://www.mjurtz.com/Datenschutzerklaerung.html"> Privacy </a>
         </p>
+        <p>Feedback or Ideas for Improvement? <a href="mailto:marcel@mjurtz.com">Text me</a>!</p>
       </div>
     </footer>
   </div>
@@ -33,13 +34,14 @@ export default {
   data() {
     return {
       showNav: false,
-      settingsActive: false
+      settingsActive: false,
+      isLoading: false
     };
   },
   methods: {
-    refresh: function () {
-      if(!this.settingsActive) {
-        this.$store.dispatch("getWod");
+    refresh: async function () {
+      if(!this.refreshDisabled) {
+        await this.$store.dispatch("getWod");
       }
     },
 
@@ -50,6 +52,14 @@ export default {
   computed: {
     SettingsButtonText: function() {
       return this.settingsActive ? "WOD" : "Settings";
+    },
+    refreshDisabled: function() {
+      return this.settingsActive || this.isLoading;
+    }
+  },
+  watch: {
+    '$store.state.wodLoading': function() {
+      this.isLoading = this.$store.state.wodLoading;
     }
   }
 };
