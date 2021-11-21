@@ -18,8 +18,8 @@
       <div class="content is-transparent has-text-centered">
         <p>
           <strong>WOD Generator</strong> by <a href="https://mjurtz.com">Marcel Jurtz</a> | 
-          <a href="https://www.mjurtz.com/Impressum.html"> Imprint </a> |
-          <a href="https://www.mjurtz.com/Datenschutzerklaerung.html"> Privacy </a>
+          <a href="https://www.mjurtz.com/imprint"> Imprint </a> |
+          <a href="https://www.mjurtz.com/privacy"> Privacy </a>
         </p>
         <p>Feedback or Ideas for Improvement? <a href="mailto:marcel@mjurtz.com">Text me</a>!</p>
       </div>
