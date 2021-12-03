@@ -3,65 +3,113 @@
     <div class="content">
       <!-- Header -->
       <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div id="navbarBasicExample" class="navbar-menu is-shadowless" >
+        <div id="navbarBasicExample" class="navbar-menu is-shadowless">
           <div class="navbar-start">
-            <a class="navbar-item" v-bind:class="{ disabled: refreshDisabled }" v-on:click="refresh">Refresh</a>
-            <a class="navbar-item" v-on:click="toggleSettings">{{ SettingsButtonText }}</a>
+            <a
+              class="navbar-item"
+              v-bind:class="{ disabled: refreshDisabled }"
+              v-on:click="refresh"
+              >Refresh</a
+            >
+            <a class="navbar-item" v-on:click="toggleContext">{{
+              contextButtonText
+            }}</a>
           </div>
         </div>
       </nav>
       <!-- /Header -->
-      <app-wod v-show=!settingsActive></app-wod>
-      <app-settings v-show=settingsActive></app-settings>
+      <app-wod v-show="wodVisible"></app-wod>
+      <app-settings v-show="settingsActive"></app-settings>
+      <app-privacy v-show="privacyActive"></app-privacy>
+      <app-imprint v-show="imprintActive"></app-imprint>
     </div>
     <footer class="footer">
       <div class="content is-transparent has-text-centered">
         <p>
-          <strong>WOD Generator</strong> by <a href="https://mjurtz.com">Marcel Jurtz</a> | 
-          <a href="https://www.mjurtz.com/imprint"> Imprint </a> |
-          <a href="https://www.mjurtz.com/privacy"> Privacy </a>
+          <strong>WOD Generator</strong> by
+          <a href="https://mjurtz.com">Marcel Jurtz</a> |
+          <a v-on:click="toggleImprint"> Imprint </a> |
+          <a v-on:click="togglePrivacy"> Privacy </a>
         </p>
-        <p>Feedback or Ideas for Improvement? <a href="mailto:marcel@mjurtz.com">Text me</a>!</p>
+        <p>
+          Feedback or Ideas for Improvement?
+          <a href="mailto:marcel@mjurtz.com">Text me</a>!
+        </p>
       </div>
     </footer>
   </div>
 </template>
 
 <script>
-
 export default {
   name: "App",
   data() {
     return {
       showNav: false,
       settingsActive: false,
-      isLoading: false
+      privacyActive: false,
+      imprintActive: false,
+      isLoading: false,
     };
   },
   methods: {
     refresh: async function () {
-      if(!this.refreshDisabled) {
+      if (!this.refreshDisabled) {
         await this.$store.dispatch("getWod");
       }
     },
 
-    toggleSettings: function () {
-      this.settingsActive = !this.settingsActive
+    toggleContext: function () {
+      if (this.privacyActive || this.imprintActive) {
+        this.privacyActive = false;
+        this.imprintActive = false;
+        this.settingsActive = false;
+      } else {
+        this.settingsActive = !this.settingsActive;
+      }
+    },
+
+    togglePrivacy: function () {
+      if (this.imprintActive || this.settingsActive) {
+        this.imprintActive = false;
+        this.settingsActive = false;
+      }
+
+      this.privacyActive = !this.privacyActive;
+    },
+
+    toggleImprint: function () {
+      if (this.privacyActive || this.settingsActive) {
+        this.privacyActive = false;
+        this.settingsActive = false;
+      }
+
+      this.imprintActive = !this.imprintActive;
     },
   },
   computed: {
-    SettingsButtonText: function() {
-      return this.settingsActive ? "WOD" : "Settings";
+    contextButtonText: function () {
+      return this.settingsActive || this.imprintActive || this.privacyActive
+        ? "WOD"
+        : "Settings";
     },
-    refreshDisabled: function() {
-      return this.settingsActive || this.isLoading;
-    }
+    refreshDisabled: function () {
+      return (
+        this.settingsActive ||
+        this.imprintActive ||
+        this.privacyActive ||
+        this.isLoading
+      );
+    },
+    wodVisible: function () {
+      return !this.settingsActive && !this.imprintActive && !this.privacyActive;
+    },
   },
   watch: {
-    '$store.state.wodLoading': function() {
+    "$store.state.wodLoading": function () {
       this.isLoading = this.$store.state.wodLoading;
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -109,15 +157,15 @@ export default {
   padding: 0;
 }
 
-.navbar-menu{
+.navbar-menu {
   flex-grow: 1;
   flex-shrink: 0;
 }
-.navbar-start{
+.navbar-start {
   justify-content: flex-start;
   margin-right: auto;
 }
-.navbar-end{
+.navbar-end {
   justify-content: flex-end;
   margin-left: auto;
 }
@@ -132,7 +180,6 @@ export default {
 
 a.disabled {
   pointer-events: none;
-  opacity: .65;
+  opacity: 0.65;
 }
-
 </style>
