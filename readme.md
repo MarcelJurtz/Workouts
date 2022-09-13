@@ -1,12 +1,11 @@
-# Crossfit Workout Generator
+# Workouts - Functional Fitness Workout Library
 
-I always had the problem that I was looking for WODs to do at home, but wasn't really motivated to sort out any workouts from catalogs by equipment that's available to me.
-This is currently a WIP to take that work off of me. There's a [live demo](http://wod-gen.herokuapp.com/) available. Right now, the random selection of workouts from the catalog work, the filtering by equipment is not yet implemented. Also, ATM I only have a few benchmark WODs implemented. More to come. Promised.
+I always had the problem that I was looking for CF-style Workouts to do at home, but wasn't really motivated to sort out any workouts from catalogs by equipment that's available to me. I built this App to build my own catalog of workouts, which I can filter by available equipment.
 
-## TODO / Roadmap / Open Ideas
+The app itself is functional, however, the catalog is not that extensive yet.
 
-* Filter WOD by Equipment
-* Blacklist for specific excercises
-* Implement permalinks to api for sharing wods
-* Export-Option as Image (?) with Permalink for Social Media Sharing + Customizable Background
-* Ignore current WOD when fetching a new random one
+## Roadmap
+* Extend the list of available workouts
+* Filter / Blacklist specific excercises, eg. complex / compound barbell movements
+* Implement routing to access and share workouts by permalinks
+* Add a feature to export workouts as image, also use this to share workouts on instagram
