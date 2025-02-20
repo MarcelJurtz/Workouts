@@ -6,12 +6,12 @@
         <div id="navbarBasicExample" class="navbar-menu is-shadowless">
           <div class="navbar-start">
             <a
-              class="navbar-item"
+              class="m-3 hover:cursor-pointer"
               v-bind:class="{ disabled: refreshDisabled }"
               v-on:click="refresh"
               >Refresh</a
             >
-            <a class="navbar-item" v-on:click="toggleContext">{{
+            <a class="m-3 hover:cursor-pointer" v-on:click="toggleContext">{{
               contextButtonText
             }}</a>
           </div>
@@ -23,11 +23,11 @@
       <app-privacy v-show="privacyActive"></app-privacy>
       <app-imprint v-show="imprintActive"></app-imprint>
     </div>
-    <footer class="footer">
-      <div class="content is-transparent has-text-centered">
+    <footer class="footer text-center text-md mb-5 mt-3">
+      <div class="content is-transparent">
         <p>
-          <strong>WOD Generator</strong> by
-          <a href="https://mjurtz.com">Marcel Jurtz</a> |
+          <strong>Made with </strong> ❤️
+          <a href="https://fitness.mjurtz.com">Marcel Jurtz</a> |
           <a v-on:click="toggleImprint"> Imprint </a> |
           <a v-on:click="togglePrivacy"> Privacy </a>
         </p>
@@ -125,7 +125,7 @@ export default {
 #app {
   font-family: "PermanentMarker", Helvetica, Arial, sans-serif;
   margin: auto;
-  max-width: 700px;
+  max-width: 80%;
 }
 
 .main {

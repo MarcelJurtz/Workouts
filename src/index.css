@@ -1,0 +1,28 @@
+/* base start */
+
+@tailwind base;
+
+/* base end / components start */
+
+@tailwind components;
+
+/* components end / utilities start */
+
+@tailwind utilities;
+
+/* utilities end */
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+  }
+  
+  [data-theme="dark"] {
+    --bg-color: #000000;
+    --text-color: #ffffff;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }

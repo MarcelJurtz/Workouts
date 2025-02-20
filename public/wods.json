@@ -1,1263 +1,1263 @@
 [{
-        "name": "Dallas 5",
-        "description": "For Time",
-        "excercises": [
-            "1 Mile Run",
-            "100 Elbow Plank Push-Ups",
-            "150 Sit-Ups",
-            "100 Burpees",
-            "150 Lunges"
-        ],
-        "equipment": [
-            "track"
-        ],
-        "tag": "",
-        "permalink": "8433C33C"
-    },
-    {
-        "name": "Orbison",
-        "description": "EMOM 20 Minutes",
-        "excercises": [
-            "4 Burpees",
-            "6 Air Squats",
-            "8 Sit-Ups"
-        ],
-        "equipment": [],
-        "tag": "",
-        "permalink": "B59B4F8D"
-    },
-    {
-        "name": "Angie",
-        "description": "For Time",
-        "excercises": [
-            "100 Pull-Ups",
-            "100 Push-Ups",
-            "100 Sit-Ups",
-            "100 Squats"
-        ],
-        "equipment": [
-            "pullupbar"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "E5100878"
-    },
-    {
-        "name": "Barbara",
-        "description": "5 Rounds for Time",
-        "excercises": [
-            "20 Pull-Ups",
-            "30 Push-Ups",
-            "40 Sit-Ups",
-            "50 Squats"
-        ],
-        "equipment": [
-            "pullupbar"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "7DE6D61B"
-    },
-    {
-        "name": "Chelsea",
-        "description": "EMOM 30 Minutes",
-        "excercises": [
-            "5 Pull-Ups",
-            "10 Push-Ups",
-            "15 Squats"
-        ],
-        "equipment": [
-            "pullupbar"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "CBAB942A"
-    },
-    {
-        "name": "Cindy",
-        "description": "AMRAP 20 Minutes",
-        "excercises": [
-            "5 Pull-Ups",
-            "10 Push-Ups",
-            "15 Squats"
-        ],
-        "equipment": [
-            "pullupbar"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "66F51EFA"
-    },
-    {
-        "name": "Diane",
-        "description": "21-15-9 Reps for Time",
-        "excercises": [
-            "Deadlift 225lbs",
-            "Handstand Push-Ups"
-        ],
-        "equipment": [
-            "barbell"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "ECB15017"
-    },
-    {
-        "name": "Elizabeth",
-        "description": "21-15-9 Reps for Time",
-        "excercises": [
-            "Clean 135lbs",
-            "Ring Dips"
-        ],
-        "equipment": [
-            "barbell",
-            "rings"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "DECA7536"
-    },
-    {
-        "name": "Fran",
-        "description": "21-15-9 Reps for Time",
-        "excercises": [
-            "Thruster 95lbs",
-            "Pull-Ups"
-        ],
-        "equipment": [
-            "barbell",
-            "pullupbar"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "EDE3D2D7"
-    },
-    {
-        "name": "Grace",
-        "description": "For Time",
-        "excercises": [
-            "30 Clean and Jerk 135lbs"
-        ],
-        "equipment": [
-            "barbell"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "84F9A6CE"
-    },
-    {
-        "name": "Helen",
-        "description": "3 Rounds for Time",
-        "excercises": [
-            "400m Run",
-            "21 Kettlebell Swings (1.5 pood)",
-            "12 Pull-Ups"
-        ],
-        "equipment": [
-            "pullupbar",
-            "kettlebell",
-            "track"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "A2BAE35D"
-    },
-    {
-        "name": "Isabel",
-        "description": "For Time",
-        "excercises": [
-            "30 Snatches 135lbs"
-        ],
-        "equipment": [
-            "barbell"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "1B590762"
-    },
-    {
-        "name": "Jackie",
-        "description": "For Time",
-        "excercises": [
-            "1000m Row",
-            "50 Thrusters 45lbs",
-            "30 Pull-Ups"
-        ],
-        "equipment": [
-            "rower",
-            "barbell",
-            "pullupbar"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "848B1DA4"
-    },
-    {
-        "name": "Karen",
-        "description": "For Time",
-        "excercises": [
-            "150 Wall-Balls"
-        ],
-        "equipment": [
-            "wallball"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "EC1B4E3F"
-    },
-    {
-        "name": "Linda",
-        "description": "10-9-8-7-6-5-4-3-2-1 Reps for Time",
-        "excercises": [
-            "Deadlift 1 1/2 BW",
-            "Bench BW",
-            "Clean 3/4 BW"
-        ],
-        "equipment": [
-            "barbell",
-            "bench"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "812B9278"
-    },
-    {
-        "name": "Mary",
-        "description": "AMRAP 20 Minutes",
-        "excercises": [
-            "5 Handstand Push-Ups",
-            "10 Pistolsquats",
-            "15 Pull-Ups"
-        ],
-        "equipment": [
-            "pullupbar"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "D60A16D0"
-    },
-    {
-        "name": "Nancy",
-        "description": "5 Rounds for Time",
-        "excercises": [
-            "400m Run",
-            "15 Overhead Squats 95lbs"
-        ],
-        "equipment": [
-            "barbell",
-            "track"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "620F7DD0"
-    },
-    {
-        "name": "Annie",
-        "description": "50-40-30-20-10 Reps for Time",
-        "excercises": [
-            "Double-Unders",
-            "Sit-Ups"
-        ],
-        "equipment": [
-            "skippingrope"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "5A0B915A"
-    },
-    {
-        "name": "Eva",
-        "description": "5 Rounds for Time",
-        "excercises": [
-            "800m Run",
-            "30 Kettlebell Swings (2 pood)",
-            "30 Pull-Ups"
-        ],
-        "equipment": [
-            "kettlebell",
-            "pullupbar",
-            "track"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "6C690E0F"
-    },
-    {
-        "name": "Kelly",
-        "description": "5 Rounds for Time",
-        "excercises": [
-            "400m Run",
-            "30 Box Jumps (24 inch)",
-            "30 Wall-Balls (20lbs)"
-        ],
-        "equipment": [
-            "boxjump",
-            "wallball",
-            "track"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "7F709484"
-    },
-    {
-        "name": "Lynne",
-        "description": "5 Rounds for max Reps (No Time Cap)",
-        "excercises": [
-            "BW Bench Press",
-            "Pull-Ups"
-        ],
-        "equipment": [
-            "barbell",
-            "bench",
-            "pullupbar"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "F8EF1794"
-    },
-    {
-        "name": "Nicole",
-        "description": "AMRAP 20 Minutes",
-        "excercises": [
-            "400m Run",
-            "Max-Rep Pull-Ups"
-        ],
-        "equipment": [
-            "pullupbar",
-            "track"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "EAD2409B"
-    },
-    {
-        "name": "",
-        "description": "For Time",
-        "excercises": [
-            "800m Row",
-            "20 Squats",
-            "20 Sit-Ups",
-            "600m Row",
-            "15 Squats",
-            "15 Sit-Ups",
-            "400m Row",
-            "10 Squats",
-            "10 Sit-Ups",
-            "200m Row",
-            "5 Squats",
-            "5 Sit-Ups"
-        ],
-        "equipment": [
-            "rower"
-        ],
-        "tag": "",
-        "permalink": "85CC8FDA"
-    },
-    {
-        "name": "Gut Buster",
-        "description": "For Time",
-        "excercises": [
-            "150 Sit-Ups",
-            "1000m Row",
-            "150 Sit-Ups"
-        ],
-        "equipment": [
-            "rower"
-        ],
-        "tag": "",
-        "permalink": "C2868C29"
-    },
-    {
-        "name": "Row Cindy Row",
-        "description": "AMRAP 20 Minutes",
-        "excercises": [
-            "5 Pull-Ups",
-            "10 Push-Ups",
-            "15 Squats",
-            "20 Calorie Row"
-        ],
-        "equipment": [
-            "rower",
-            "pullupbar"
-        ],
-        "tag": "",
-        "permalink": "FFD615DD"
-    },
-    {
-        "name": "Christine",
-        "description": "3 Rounds for Time",
-        "excercises": [
-            "500m Row",
-            "12 Deadlifts",
-            "21 Box Jumps"
-        ],
-        "equipment": [
-            "boxjump",
-            "barbell",
-            "rower"
-        ],
-        "tag": "Benchmark-WOD",
-        "permalink": "A13BF085"
-    },
-    {
-        "name": "San Fran Crippler",
-        "description": "For Time",
-        "excercises": [
-            "30 Back Squats",
-            "1000m Row"
-        ],
-        "equipment": [
-            "rower",
-            "barbell"
-        ],
-        "tag": "",
-        "permalink": "281C4883"
-    },
-    {
-        "name": "BCC Sanctional 19.1",
-        "description": "5 Rounds for Time",
-        "excercises": [
-            "500m Row",
-            "100m Swim"
-        ],
-        "equipment": [
-            "rower",
-            "pool"
-        ],
-        "tag": "",
-        "permalink": "CC3C64AE"
-    },
-    {
-        "name": "",
-        "description": "For Time",
-        "excercises": [
-            "30 Wall Balls",
-            "500m Row",
-            "30 Push-Ups",
-            "500m Row",
-            "30 Box Dips",
-            "500m Row",
-            "30 Jump Lunges",
-            "500m Row",
-            "30 Burpees"
-        ],
-        "equipment": [
-            "rower",
-            "boxjump",
-            "wallball"
-        ],
-        "tag": "",
-        "permalink": "F46B8E9F"
-    },
-    {
-        "name": "",
-        "description": "20 Minute EMOM",
-        "excercises": [
-            "1min Row",
-            "1min Rest"
-        ],
-        "equipment": [
-            "rower"
-        ],
-        "tag": "",
-        "permalink": "B94D5B62"
-    },
-    {
-        "name": "Timed Row Intervals",
-        "description": "10sec Rest between each Repeat",
-        "excercises": [
-            "10x2min Row"
-        ],
-        "equipment": [
-            "rower"
-        ],
-        "tag": "",
-        "permalink": "2435C83B"
-    },
-    {
-        "name": "Can't Walk",
-        "description": "30min EMOM",
-        "excercises": [
-            "15 calorie Row",
-            "Front Squats"
-        ],
-        "equipment": [
-            "rower",
-            "barbell"
-        ],
-        "tag": "",
-        "permalink": "AB4890E4"
-    },
-    {
-        "name": "Boat Race",
-        "description": "3 Rounds for Time",
-        "excercises": [
-            "500m Row",
-            "400m Run"
-        ],
-        "equipment": [
-            "rower",
-            "track"
-        ],
-        "tag": "",
-        "permalink": "4732F99F"
-    },
-    {
-        "name": "The 50s",
-        "description": "Buy in: 1000m Row",
-        "excercises": [
-            "50 Burpees",
-            "50 Air Squats",
-            "50 Hollow Rocks",
-            "50 Push-Ups"
-        ],
-        "equipment": [
-            "rower"
-        ],
-        "tag": "",
-        "permalink": "2C911C45"
-    },
-    {
-        "name": "60min Row",
-        "description": "Maximum Distance",
-        "excercises": [
-            "60min Row"
-        ],
-        "equipment": [
-            "rower"
-        ],
-        "tag": "",
-        "permalink": "3FD21000"
-    },
-    {
-        "name": "Moreno",
-        "description": "For Time",
-        "excercises": [
-            "2000m Row",
-            "56 Burpees"
-        ],
-        "equipment": [
-            "rower"
-        ],
-        "tag": "",
-        "permalink": "1915D8AA"
-    },
-    {
-        "name": "Triple Sweat",
-        "description": "24min EMOM",
-        "excercises": [
-            "15 cal Row",
-            "15 Burpees",
-            "30 Air Squats"
-        ],
-        "equipment": [
-            "rower"
-        ],
-        "tag": "",
-        "permalink": "7F9394B9"
-    },
-    {
-        "name": "The Ghost",
-        "description": "6 Rounds for Total Reps in 23mins",
-        "excercises": [
-            "1min Row (for calories)",
-            "1min Burpees",
-            "1min Double Unders",
-            "1min Rest"
-        ],
-        "equipment": [
-            "rower",
-            "skippingrope"
-        ],
-        "tag": "",
-        "permalink": "141E46CD"
-    },
-    {
-        "name": "Andrew Desperito",
-        "description": "For Time",
-        "excercises": [
-            "2000m Row",
-            "50  Thrusters",
-            "2000m Row"
-        ],
-        "equipment": [
-            "rower",
-            "barbell"
-        ],
-        "tag": "",
-        "permalink": "99390C1C"
-    },
-    {
-        "name": "Double Trouble",
-        "description": "21-15-9 Calories For Time",
-        "excercises": [
-            "Airbike",
-            "Row"
-        ],
-        "equipment": [
-            "rower",
-            "airbike"
-        ],
-        "tag": "",
-        "permalink": "1E11AC80"
-    },
-    {
-        "name": "Caitlin",
-        "description": "For Time",
-        "excercises": [
-            "2000m Row",
-            "120cal Airbike",
-            "1mile Run"
-        ],
-        "equipment": [
-            "rower",
-            "airbike",
-            "track"
-        ],
-        "tag": "",
-        "permalink": "34EA265A"
-    },
-    {
-        "name": "Lactic Repeats",
-        "description": "3 Rounds For Time",
-        "excercises": [
-            "250m Row",
-            "15 Kettlebell Swings",
-            "25 Burpees",
-            "15 Kettlebell Swings",
-            "250m Row",
-            "12min Rest after each Round"
-        ],
-        "equipment": [
-            "rower",
-            "kettlebell"
-        ],
-        "tag": "",
-        "permalink": "615E9C38"
-    },
-    {
-        "name": "Alcatraz",
-        "description": "6 Rounds for Time, 15min Timecap",
-        "excercises": [
-            "15cal Row",
-            "15 Kettlebell Swings",
-            "15 Hand-Release Push-Ups"
-        ],
-        "equipment": [
-            "rower",
-            "kettlebell"
-        ],
-        "tag": "",
-        "permalink": "8AAEA828"
-    },
-    {
-        "name": "Shinners",
-        "description": "Partner-AMRAP for 25mins",
-        "excercises": [
-            "30 Burpees",
-            "1000m Row",
-            "30 Kettlebell Swings"
-        ],
-        "equipment": [
-            "rower",
-            "kettlebell"
-        ],
-        "tag": "",
-        "permalink": "ADBC06ED"
-    },
-    {
-        "name": "Foundation Ten",
-        "description": "5min AMRAP",
-        "excercises": [
-            "5 Overhead Squats",
-            "15 cal Row"
-        ],
-        "equipment": [
-            "rower",
-            "barbell"
-        ],
-        "tag": "",
-        "permalink": "B3A26494"
-    },
-    {
-        "name": "Foundation Three",
-        "description": "5min AMRAP",
-        "excercises": [
-            "10 Push Presses",
-            "10 cal Row"
-        ],
-        "equipment": [
-            "rower",
-            "barbell"
-        ],
-        "tag": "",
-        "permalink": "5A3DF89D"
-    },
-    {
-        "name": "Easy Burpees",
-        "description": "8min AMRAP",
-        "excercises": [
-            "Burpees"
-        ],
-        "equipment": [],
-        "tag": "Getting Started",
-        "permalink": "0608F0F0"
-    },
-    {
-        "name": "The Running Sandwich",
-        "description": "For Time",
-        "excercises": [
-            "400m Run",
-            "30 Air Squats",
-            "30 Sit-Ups",
-            "20 Burpees",
-            "10 Pull-Ups",
-            "800m Run"
-        ],
-        "equipment": [
-            "pullupbar",
-            "track"
-        ],
-        "tag": "Getting Started",
-        "permalink": "5EB43156"
-    },
-    {
-        "name": "Push - Pull - Run",
-        "description": "5 Rounds For Time",
-        "excercises": [
-            "10 Push-Ups",
-            "10 Pull-Ups",
-            "800m Run"
-        ],
-        "equipment": [
-            "pullupbar",
-            "track"
-        ],
-        "tag": "Getting Started",
-        "permalink": "7C9C6480"
-    },
-    {
-        "name": "Burpee Box Jumps",
-        "description": "8min AMRAP",
-        "excercises": [
-            "8 Burpee Box Jumps",
-            "16 Kettlebell Swings"
-        ],
-        "equipment": [
-            "boxjump",
-            "kettlebell"
-        ],
-        "tag": "Getting Started",
-        "permalink": "3E0BB090"
-    },
-    {
-        "name": "10 for 10",
-        "description": "10min AMRAP",
-        "excercises": [
-            "10 Kettlebell Swings",
-            "10 Box Jumps",
-            "10 Ring Dips"
-        ],
-        "equipment": [
-            "boxjump",
-            "kettlebell",
-            "rings"
-        ],
-        "tag": "Getting Started",
-        "permalink": "575FABB8"
-    },
-    {
-        "name": "Dumbells and Jump Ropes",
-        "description": "Max Reps",
-        "excercises": [
-            "3min Rope-Skipping",
-            "1min Rest",
-            "3min Weighted Sit-Ups",
-            "1min Rest",
-            "3min Weighted Lunges",
-            "1min Rest",
-            "3min Dumbell Thrusters"
-        ],
-        "equipment": [
-            "dumbbell",
-            "skippingrope"
-        ],
-        "tag": "",
-        "permalink": "555406D7"
-    },
-    {
-        "name": "Mini Murph",
-        "description": "For Time",
-        "excercises": [
-            "1mile Run",
-            "100 Push-Ups",
-            "200 Air-Squats",
-            "1mile Run"
-        ],
-        "equipment": [
-            "track"
-        ],
-        "tag": "Home-WOD",
-        "permalink": "D352A799"
-    },
-    {
-        "name": "Squats",
-        "description": "For Time",
-        "excercises": [
-            "300 Air Squats"
-        ],
-        "equipment": [],
-        "tag": "Home-WOD",
-        "permalink": "49FC4BDA"
-    },
-    {
-        "name": "Full-Body Sprint",
-        "description": "7 Rounds For Time",
-        "excercises": [
-            "10 Push-Ups",
-            "10 Air Squats",
-            "200m Run"
-        ],
-        "equipment": [
-            "track"
-        ],
-        "tag": "Home-WOD",
-        "permalink": "15F5CE11"
-    },
-    {
-        "name": "",
-        "description": "8 Rounds for Time",
-        "excercises": [
-            "10 Push-Ups",
-            "10 Air Squats",
-            "10 Burpees",
-            "10 Air Squats"
-        ],
-        "equipment": [],
-        "tag": "Home-WOD",
-        "permalink": "E9595427"
-    },
-    {
-        "name": "Well Rounded",
-        "description": "For Time",
-        "excercises": [
-            "400m Run",
-            "50 Air Squats",
-            "400m Run",
-            "50 Push-Ups",
-            "400m Run",
-            "50 Sit-Ups",
-            "400m Run"
-        ],
-        "equipment": [
-            "track"
-        ],
-        "tag": "Home-WOD",
-        "permalink": "C03E72CA"
-    },
-    {
-        "name": "Core Blaster",
-        "description": "For Time",
-        "excercises": [
-            "1mile Run",
-            "100 Sit-Ups",
-            "100 Superman",
-            "1mile Run"
-        ],
-        "equipment": [
-            "track"
-        ],
-        "tag": "Home-WOD",
-        "permalink": "51813EC5"
-    },
-    {
-        "name": "Leg Blaster",
-        "description": "10 Rounds AMRAMP",
-        "excercises": [
-            "30sec Max Reps Squat Jumps",
-            "30sec Rest"
-        ],
-        "equipment": [],
-        "tag": "Home-WOD",
-        "permalink": "71BD8586"
-    },
-    {
-        "name": "8min All-Out",
-        "description": "For Max Reps",
-        "excercises": [
-            "2min Push-Ups",
-            "1min Rest",
-            "2min Sit-Ups",
-            "1min Rest",
-            "2min Air Squats"
-        ],
-        "equipment": [],
-        "tag": "Home-WOD",
-        "permalink": "B8905DD9"
-    },
-    {
-        "name": "Long Distance Burpees",
-        "description": "For Time",
-        "excercises": [
-            "800m Burpee Broad Jumps"
-        ],
-        "equipment": [],
-        "tag": "Home-WOD",
-        "permalink": "3B561911"
-    },
-    {
-        "name": "Bodyweight Triplet",
-        "description": "21-15-9 Reps for Time",
-        "excercises": [
-            "Sit-Ups",
-            "Push-Ups",
-            "Air Squats"
-        ],
-        "equipment": [],
-        "tag": "Home-WOD",
-        "permalink": "F3BF0E2E"
-    },
-    {
-        "name": "Fantastic 50s",
-        "description": "For Time",
-        "excercises": [
-            "50 Jump Tucks",
-            "50 Push-Ups",
-            "50 Air Squats",
-            "50 Handstands",
-            "50 Walking Lunges",
-            "50 Sit-Ups",
-            "50sec L-Sit Hold",
-            "50 Burpees"
-        ],
-        "equipment": [],
-        "tag": "Home-WOD",
-        "permalink": "87C41E3A"
-    },
-    {
-        "name": "5K",
-        "description": "For Time",
-        "excercises": [
-            "5K Run"
-        ],
-        "equipment": [
-            "track"
-        ],
-        "tag": "Home-WOD",
-        "permalink": "1CCB2758"
-    },
-    {
-        "name": "Burpee Sprints",
-        "description": "5 2min Rounds for Max Reps",
-        "excercises": [
-            "10 Burpees",
-            "200m Run",
-            "Max-Rep Burpees",
-            "3min Rest"
-        ],
-        "equipment": [
-            "track"
-        ],
-        "tag": "Home-WOD",
-        "permalink": "5ED7C40D"
-    },
-    {
-        "name": "Durante Core",
-        "description": "5 Rounds for Time",
-        "excercises": [
-            "10 Hollow Rocks",
-            "10 V-Ups",
-            "10 Tuck Ups",
-            "10sec Hollow Hold",
-            "1min. Rest"
-        ],
-        "equipment": [],
-        "tag": "Home-WOD",
-        "permalink": "602CB700"
-    },
-    {
-        "name": "",
-        "description": "2 Rounds for Time",
-        "excercises": [
-            "50 Sit-Ups",
-            "100 Ropejumps",
-            "100 Flutter Kicks (per Leg)",
-            "100 Ropejumps",
-            "50 Leg Raises",
-            "100 Ropejumps",
-            "100 Mountain Climbers (per Leg)",
-            "100 Jump Ropes"
-        ],
-        "equipment": [
-            "skippingrope"
-        ],
-        "tag": "Home-WOD",
-        "permalink": "EFD9A6ED"
-    },
-    {
-        "name": "",
-        "description": "4 Rounds for Time",
-        "excercises": [
-            "30 V-Ups",
-            "60 Bicycle-Crunches",
-            "30 Weighted Sit-Ups",
-            "60 Flutter Kicks",
-            "30 Toe-Touches",
-            "60 Mountain Climbers",
-            "400m Run"
-        ],
-        "equipment": [
-            "track"
-        ],
-        "tag": "Home-WOD",
-        "permalink": "3F4E08ED"
-    },
-    {
-        "name": "Hold Tight!",
-        "description": "For Time",
-        "excercises": [
-            "2000m Row",
-            "75 Kettlebell-Swings",
-            "1500m Row",
-            "100 Push-Ups",
-            "1000m Row",
-            "75 Kettlebell-Swings"
-        ],
-        "equipment": [
-            "kettlebell",
-            "rower"
-        ],
-        "tag": "",
-        "permalink": "35161D09"
-    },
-    {
-        "name": "Row 30/30 x4",
-        "description": "4 Rounds for Max Distance",
-        "excercises": [
-            "30sec Rowing",
-            "30sec Rest"
-        ],
-        "equipment": [
-            "rower"
-        ],
-        "tag": "",
-        "permalink": "9686DF75"
-    },
-    {
-        "name": "Basic Bitch Booty Blaster",
-        "description": "15 Minute AMRAP",
-        "excercises": [
-            "20 Frog Pumps",
-            "20 Single Glute Bridges (10 each leg)",
-            "20 Air Squats",
-            "20 Lunges (10 each leg)"
-        ],
-        "equipment": [],
-        "tag": "",
-        "permalink": "406895D4"
-    },
-    {
-        "name": "Freddy Krueger",
-        "description": "21-15-9 Reps For Time",
-        "excercises": [
-            "Kettlebell-Swings",
-            "Burpees"
-        ],
-        "equipment": [
-            "kettlebell"
-        ],
-        "tag": "",
-        "permalink": "B59D0D5E"
-    },
-    {
-        "name": "Death Row",
-        "description": "20 Minute EMOM",
-        "excercises": [
-            "Odd Minutes: 20cal. Row",
-            "Even Minutes: 15 Burpees"
-        ],
-        "equipment": [
-            "rower"
-        ],
-        "tag": "",
-        "permalink": "4831CF9F"
-    },
-    {
-        "name": "Open 15.5",
-        "description": "27-21-15-9 Reps For Time",
-        "excercises": [
-            "Row (calories)",
-            "Thrusters"
-        ],
-        "equipment": [
-            "rower",
-            "barbell"
-        ],
-        "tag": "2015 CrossFit Games Open",
-        "permalink": "301E0264"
-    },
-    {
-        "name": 190102,
-        "description": "For Time",
-        "excercises": [
-            "9 Thrusters",
-            "1000m Row",
-            "15 Thrusters",
-            "1000m Row",
-            "21 Thrusters"
-        ],
-        "equipment": [
-            "rower",
-            "barbell"
-        ],
-        "tag": "CrossFit Daily",
-        "permalink": "4AAC6D7E"
-    },
-    {
-        "name": "Rowing Thrusters",
-        "description": "For Time",
-        "excercises": [
-            "1000m Row",
-            "50 Thrusters",
-            "40 Hand-Release Push-Ups",
-            "30 Kettlebell-Swings",
-            "20 Burpees",
-            "10 Pull-Ups",
-            "1000m Row"
-        ],
-        "equipment": [
-            "rower",
-            "barbell",
-            "kettlebell",
-            "pullupbar"
-        ],
-        "tag": "",
-        "permalink": "7B037149"
-    },
-    {
-        "name": "Surfer on Acid",
-        "description": "3 Rounds for Time",
-        "excercises": [
-            "400m Run",
-            "21 Burpees"
-        ],
-        "equipment": [
-            "track"
-        ],
-        "tag": "",
-        "permalink": "45D575E2"
-    },
-    {
-        "name": "The General",
-        "description": "5 Rounds for Time",
-        "excercises": [
-            "35cal Row",
-            "5 Deadlifts",
-            "3 Power Cleans"
-        ],
-        "equipment": [
-            "rower",
-            "barbell"
-        ],
-        "tag": "",
-        "permalink": "986216A7"
-    },
-    {
-        "name": "Lumpy",
-        "description": "3 Rounds for Time",
-        "excercises": [
-            "250m Row",
-            "6 Power Cleans",
-            "6 Thrusters",
-            "9 Deadlifts",
-            "9 Sumo Deadlift High-Pulls"
-        ],
-        "equipment": [
-            "rower",
-            "barbell"
-        ],
-        "tag": "",
-        "permalink": "279FF16F"
-    },
-    {
-        "name": "Blake Dremann",
-        "description": "For Time",
-        "excercises": [
-            "1000m Row",
-            "50 Push-Ups",
-            "30 Bodyweight-Deadlifts",
-            "40 Push-Ups",
-            "20 Bodywight-Deadlifts",
-            "30 Push-Ups",
-            "10 Bodyweight-Deadlifts",
-            "1000m Row"
-        ],
-        "equipment": [
-            "rower",
-            "barbell"
-        ],
-        "tag": "",
-        "permalink": "3B46D3AB"
-    },
-    {
-        "name": "Zachary Tellier",
-        "description": "For Time",
-        "excercises": [
-            "10 Burpees",
-            "10 Burpess",
-            "25 Push-Ups",
-            "10 Burpees",
-            "25 Push-Ups",
-            "50 Lunges",
-            "10 Burpess",
-            "25 Push-Ups",
-            "50 Lunges",
-            "100 Sit-Ups",
-            "10 Burpess",
-            "25 Push-Ups",
-            "50 Lunges",
-            "100 Sit-Ups",
-            "150 Air Squats"
-        ],
-        "equipment": [],
-        "tag": "",
-        "permalink": "F334E00C"
-    },
-    {
-        "name": "The Happening",
-        "description": "For Time",
-        "excercises": [
-            "10-20-30-40-50-60-70-80-90-100 Alternating Lunges",
-            "10 Burpees after each Set"
-        ],
-        "equipment": [],
-        "tag": "",
-        "permalink": "8F9AEE15"
-    },
-    {
-        "name": "Bare Arsed",
-        "description": "6 Rounds for Time",
-        "excercises": [
-            "20 Air Squats",
-            "10 Hand Release Push-Ups",
-            "20 Lunges",
-            "10 Burpees"
-        ],
-        "equipment": [],
-        "tag": "",
-        "permalink": "7F191118"
-    },
-    {
-        "name": "AMBAP",
-        "description": "5 Minute Partner AMRAP",
-        "excercises": [
-            "Burpees"
-        ],
-        "equipment": [],
-        "tag": "",
-        "permalink": "940F789B"
-    },
-    {
-        "name": "The Climb",
-        "description": "5 Rounds for Reps / 90sec AMRAP + 90sec Rest",
-        "excercises": [
-            "40 Mountain Climbers",
-            "10 Sit-Ups",
-            "Max Lunges"
-        ],
-        "equipment": [],
-        "tag": "",
-        "permalink": "92B20D64"
-    },
-    {
-        "name": "Nicole Upside Down",
-        "description": "20 Minute AMRAP",
-        "excercises": [
-            "Max unbroken Shoulder Taps",
-            "400m Run"
-        ],
-        "equipment": [],
-        "tag": "",
-        "permalink": "67E2E5B8"
-    }
+    "name": "Dallas 5",
+    "description": "For Time",
+    "excercises": [
+        "1 Mile Run",
+        "100 Elbow Plank Push-Ups",
+        "150 Sit-Ups",
+        "100 Burpees",
+        "150 Lunges"
+    ],
+    "equipment": [
+        "track"
+    ],
+    "tag": "",
+    "permalink": "8433C33C"
+},
+{
+    "name": "Orbison",
+    "description": "EMOM 20 Minutes",
+    "excercises": [
+        "4 Burpees",
+        "6 Air Squats",
+        "8 Sit-Ups"
+    ],
+    "equipment": [],
+    "tag": "",
+    "permalink": "B59B4F8D"
+},
+{
+    "name": "Angie",
+    "description": "For Time",
+    "excercises": [
+        "100 Pull-Ups",
+        "100 Push-Ups",
+        "100 Sit-Ups",
+        "100 Squats"
+    ],
+    "equipment": [
+        "pullupbar"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "E5100878"
+},
+{
+    "name": "Barbara",
+    "description": "5 Rounds for Time",
+    "excercises": [
+        "20 Pull-Ups",
+        "30 Push-Ups",
+        "40 Sit-Ups",
+        "50 Squats"
+    ],
+    "equipment": [
+        "pullupbar"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "7DE6D61B"
+},
+{
+    "name": "Chelsea",
+    "description": "EMOM 30 Minutes",
+    "excercises": [
+        "5 Pull-Ups",
+        "10 Push-Ups",
+        "15 Squats"
+    ],
+    "equipment": [
+        "pullupbar"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "CBAB942A"
+},
+{
+    "name": "Cindy",
+    "description": "AMRAP 20 Minutes",
+    "excercises": [
+        "5 Pull-Ups",
+        "10 Push-Ups",
+        "15 Squats"
+    ],
+    "equipment": [
+        "pullupbar"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "66F51EFA"
+},
+{
+    "name": "Diane",
+    "description": "21-15-9 Reps for Time",
+    "excercises": [
+        "Deadlift 225lbs",
+        "Handstand Push-Ups"
+    ],
+    "equipment": [
+        "barbell"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "ECB15017"
+},
+{
+    "name": "Elizabeth",
+    "description": "21-15-9 Reps for Time",
+    "excercises": [
+        "Clean 135lbs",
+        "Ring Dips"
+    ],
+    "equipment": [
+        "barbell",
+        "rings"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "DECA7536"
+},
+{
+    "name": "Fran",
+    "description": "21-15-9 Reps for Time",
+    "excercises": [
+        "Thruster 95lbs",
+        "Pull-Ups"
+    ],
+    "equipment": [
+        "barbell",
+        "pullupbar"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "EDE3D2D7"
+},
+{
+    "name": "Grace",
+    "description": "For Time",
+    "excercises": [
+        "30 Clean and Jerk 135lbs"
+    ],
+    "equipment": [
+        "barbell"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "84F9A6CE"
+},
+{
+    "name": "Helen",
+    "description": "3 Rounds for Time",
+    "excercises": [
+        "400m Run",
+        "21 Kettlebell Swings (1.5 pood)",
+        "12 Pull-Ups"
+    ],
+    "equipment": [
+        "pullupbar",
+        "kettlebell",
+        "track"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "A2BAE35D"
+},
+{
+    "name": "Isabel",
+    "description": "For Time",
+    "excercises": [
+        "30 Snatches 135lbs"
+    ],
+    "equipment": [
+        "barbell"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "1B590762"
+},
+{
+    "name": "Jackie",
+    "description": "For Time",
+    "excercises": [
+        "1000m Row",
+        "50 Thrusters 45lbs",
+        "30 Pull-Ups"
+    ],
+    "equipment": [
+        "rower",
+        "barbell",
+        "pullupbar"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "848B1DA4"
+},
+{
+    "name": "Karen",
+    "description": "For Time",
+    "excercises": [
+        "150 Wall-Balls"
+    ],
+    "equipment": [
+        "wallball"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "EC1B4E3F"
+},
+{
+    "name": "Linda",
+    "description": "10-9-8-7-6-5-4-3-2-1 Reps for Time",
+    "excercises": [
+        "Deadlift 1 1/2 BW",
+        "Bench BW",
+        "Clean 3/4 BW"
+    ],
+    "equipment": [
+        "barbell",
+        "bench"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "812B9278"
+},
+{
+    "name": "Mary",
+    "description": "AMRAP 20 Minutes",
+    "excercises": [
+        "5 Handstand Push-Ups",
+        "10 Pistolsquats",
+        "15 Pull-Ups"
+    ],
+    "equipment": [
+        "pullupbar"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "D60A16D0"
+},
+{
+    "name": "Nancy",
+    "description": "5 Rounds for Time",
+    "excercises": [
+        "400m Run",
+        "15 Overhead Squats 95lbs"
+    ],
+    "equipment": [
+        "barbell",
+        "track"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "620F7DD0"
+},
+{
+    "name": "Annie",
+    "description": "50-40-30-20-10 Reps for Time",
+    "excercises": [
+        "Double-Unders",
+        "Sit-Ups"
+    ],
+    "equipment": [
+        "skippingrope"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "5A0B915A"
+},
+{
+    "name": "Eva",
+    "description": "5 Rounds for Time",
+    "excercises": [
+        "800m Run",
+        "30 Kettlebell Swings (2 pood)",
+        "30 Pull-Ups"
+    ],
+    "equipment": [
+        "kettlebell",
+        "pullupbar",
+        "track"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "6C690E0F"
+},
+{
+    "name": "Kelly",
+    "description": "5 Rounds for Time",
+    "excercises": [
+        "400m Run",
+        "30 Box Jumps (24 inch)",
+        "30 Wall-Balls (20lbs)"
+    ],
+    "equipment": [
+        "boxjump",
+        "wallball",
+        "track"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "7F709484"
+},
+{
+    "name": "Lynne",
+    "description": "5 Rounds for max Reps (No Time Cap)",
+    "excercises": [
+        "BW Bench Press",
+        "Pull-Ups"
+    ],
+    "equipment": [
+        "barbell",
+        "bench",
+        "pullupbar"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "F8EF1794"
+},
+{
+    "name": "Nicole",
+    "description": "AMRAP 20 Minutes",
+    "excercises": [
+        "400m Run",
+        "Max-Rep Pull-Ups"
+    ],
+    "equipment": [
+        "pullupbar",
+        "track"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "EAD2409B"
+},
+{
+    "name": "",
+    "description": "For Time",
+    "excercises": [
+        "800m Row",
+        "20 Squats",
+        "20 Sit-Ups",
+        "600m Row",
+        "15 Squats",
+        "15 Sit-Ups",
+        "400m Row",
+        "10 Squats",
+        "10 Sit-Ups",
+        "200m Row",
+        "5 Squats",
+        "5 Sit-Ups"
+    ],
+    "equipment": [
+        "rower"
+    ],
+    "tag": "",
+    "permalink": "85CC8FDA"
+},
+{
+    "name": "Gut Buster",
+    "description": "For Time",
+    "excercises": [
+        "150 Sit-Ups",
+        "1000m Row",
+        "150 Sit-Ups"
+    ],
+    "equipment": [
+        "rower"
+    ],
+    "tag": "",
+    "permalink": "C2868C29"
+},
+{
+    "name": "Row Cindy Row",
+    "description": "AMRAP 20 Minutes",
+    "excercises": [
+        "5 Pull-Ups",
+        "10 Push-Ups",
+        "15 Squats",
+        "20 Calorie Row"
+    ],
+    "equipment": [
+        "rower",
+        "pullupbar"
+    ],
+    "tag": "",
+    "permalink": "FFD615DD"
+},
+{
+    "name": "Christine",
+    "description": "3 Rounds for Time",
+    "excercises": [
+        "500m Row",
+        "12 Deadlifts",
+        "21 Box Jumps"
+    ],
+    "equipment": [
+        "boxjump",
+        "barbell",
+        "rower"
+    ],
+    "tag": "Benchmark-WOD",
+    "permalink": "A13BF085"
+},
+{
+    "name": "San Fran Crippler",
+    "description": "For Time",
+    "excercises": [
+        "30 Back Squats",
+        "1000m Row"
+    ],
+    "equipment": [
+        "rower",
+        "barbell"
+    ],
+    "tag": "",
+    "permalink": "281C4883"
+},
+{
+    "name": "BCC Sanctional 19.1",
+    "description": "5 Rounds for Time",
+    "excercises": [
+        "500m Row",
+        "100m Swim"
+    ],
+    "equipment": [
+        "rower",
+        "pool"
+    ],
+    "tag": "",
+    "permalink": "CC3C64AE"
+},
+{
+    "name": "",
+    "description": "For Time",
+    "excercises": [
+        "30 Wall Balls",
+        "500m Row",
+        "30 Push-Ups",
+        "500m Row",
+        "30 Box Dips",
+        "500m Row",
+        "30 Jump Lunges",
+        "500m Row",
+        "30 Burpees"
+    ],
+    "equipment": [
+        "rower",
+        "boxjump",
+        "wallball"
+    ],
+    "tag": "",
+    "permalink": "F46B8E9F"
+},
+{
+    "name": "",
+    "description": "20 Minute EMOM",
+    "excercises": [
+        "1min Row",
+        "1min Rest"
+    ],
+    "equipment": [
+        "rower"
+    ],
+    "tag": "",
+    "permalink": "B94D5B62"
+},
+{
+    "name": "Timed Row Intervals",
+    "description": "10sec Rest between each Repeat",
+    "excercises": [
+        "10x2min Row"
+    ],
+    "equipment": [
+        "rower"
+    ],
+    "tag": "",
+    "permalink": "2435C83B"
+},
+{
+    "name": "Can't Walk",
+    "description": "30min EMOM",
+    "excercises": [
+        "15 calorie Row",
+        "Front Squats"
+    ],
+    "equipment": [
+        "rower",
+        "barbell"
+    ],
+    "tag": "",
+    "permalink": "AB4890E4"
+},
+{
+    "name": "Boat Race",
+    "description": "3 Rounds for Time",
+    "excercises": [
+        "500m Row",
+        "400m Run"
+    ],
+    "equipment": [
+        "rower",
+        "track"
+    ],
+    "tag": "",
+    "permalink": "4732F99F"
+},
+{
+    "name": "The 50s",
+    "description": "Buy in: 1000m Row",
+    "excercises": [
+        "50 Burpees",
+        "50 Air Squats",
+        "50 Hollow Rocks",
+        "50 Push-Ups"
+    ],
+    "equipment": [
+        "rower"
+    ],
+    "tag": "",
+    "permalink": "2C911C45"
+},
+{
+    "name": "60min Row",
+    "description": "Maximum Distance",
+    "excercises": [
+        "60min Row"
+    ],
+    "equipment": [
+        "rower"
+    ],
+    "tag": "",
+    "permalink": "3FD21000"
+},
+{
+    "name": "Moreno",
+    "description": "For Time",
+    "excercises": [
+        "2000m Row",
+        "56 Burpees"
+    ],
+    "equipment": [
+        "rower"
+    ],
+    "tag": "",
+    "permalink": "1915D8AA"
+},
+{
+    "name": "Triple Sweat",
+    "description": "24min EMOM",
+    "excercises": [
+        "15 cal Row",
+        "15 Burpees",
+        "30 Air Squats"
+    ],
+    "equipment": [
+        "rower"
+    ],
+    "tag": "",
+    "permalink": "7F9394B9"
+},
+{
+    "name": "The Ghost",
+    "description": "6 Rounds for Total Reps in 23mins",
+    "excercises": [
+        "1min Row (for calories)",
+        "1min Burpees",
+        "1min Double Unders",
+        "1min Rest"
+    ],
+    "equipment": [
+        "rower",
+        "skippingrope"
+    ],
+    "tag": "",
+    "permalink": "141E46CD"
+},
+{
+    "name": "Andrew Desperito",
+    "description": "For Time",
+    "excercises": [
+        "2000m Row",
+        "50  Thrusters",
+        "2000m Row"
+    ],
+    "equipment": [
+        "rower",
+        "barbell"
+    ],
+    "tag": "",
+    "permalink": "99390C1C"
+},
+{
+    "name": "Double Trouble",
+    "description": "21-15-9 Calories For Time",
+    "excercises": [
+        "Airbike",
+        "Row"
+    ],
+    "equipment": [
+        "rower",
+        "airbike"
+    ],
+    "tag": "",
+    "permalink": "1E11AC80"
+},
+{
+    "name": "Caitlin",
+    "description": "For Time",
+    "excercises": [
+        "2000m Row",
+        "120cal Airbike",
+        "1mile Run"
+    ],
+    "equipment": [
+        "rower",
+        "airbike",
+        "track"
+    ],
+    "tag": "",
+    "permalink": "34EA265A"
+},
+{
+    "name": "Lactic Repeats",
+    "description": "3 Rounds For Time",
+    "excercises": [
+        "250m Row",
+        "15 Kettlebell Swings",
+        "25 Burpees",
+        "15 Kettlebell Swings",
+        "250m Row",
+        "12min Rest after each Round"
+    ],
+    "equipment": [
+        "rower",
+        "kettlebell"
+    ],
+    "tag": "",
+    "permalink": "615E9C38"
+},
+{
+    "name": "Alcatraz",
+    "description": "6 Rounds for Time, 15min Timecap",
+    "excercises": [
+        "15cal Row",
+        "15 Kettlebell Swings",
+        "15 Hand-Release Push-Ups"
+    ],
+    "equipment": [
+        "rower",
+        "kettlebell"
+    ],
+    "tag": "",
+    "permalink": "8AAEA828"
+},
+{
+    "name": "Shinners",
+    "description": "Partner-AMRAP for 25mins",
+    "excercises": [
+        "30 Burpees",
+        "1000m Row",
+        "30 Kettlebell Swings"
+    ],
+    "equipment": [
+        "rower",
+        "kettlebell"
+    ],
+    "tag": "",
+    "permalink": "ADBC06ED"
+},
+{
+    "name": "Foundation Ten",
+    "description": "5min AMRAP",
+    "excercises": [
+        "5 Overhead Squats",
+        "15 cal Row"
+    ],
+    "equipment": [
+        "rower",
+        "barbell"
+    ],
+    "tag": "",
+    "permalink": "B3A26494"
+},
+{
+    "name": "Foundation Three",
+    "description": "5min AMRAP",
+    "excercises": [
+        "10 Push Presses",
+        "10 cal Row"
+    ],
+    "equipment": [
+        "rower",
+        "barbell"
+    ],
+    "tag": "",
+    "permalink": "5A3DF89D"
+},
+{
+    "name": "Easy Burpees",
+    "description": "8min AMRAP",
+    "excercises": [
+        "Burpees"
+    ],
+    "equipment": [],
+    "tag": "Getting Started",
+    "permalink": "0608F0F0"
+},
+{
+    "name": "The Running Sandwich",
+    "description": "For Time",
+    "excercises": [
+        "400m Run",
+        "30 Air Squats",
+        "30 Sit-Ups",
+        "20 Burpees",
+        "10 Pull-Ups",
+        "800m Run"
+    ],
+    "equipment": [
+        "pullupbar",
+        "track"
+    ],
+    "tag": "Getting Started",
+    "permalink": "5EB43156"
+},
+{
+    "name": "Push - Pull - Run",
+    "description": "5 Rounds For Time",
+    "excercises": [
+        "10 Push-Ups",
+        "10 Pull-Ups",
+        "800m Run"
+    ],
+    "equipment": [
+        "pullupbar",
+        "track"
+    ],
+    "tag": "Getting Started",
+    "permalink": "7C9C6480"
+},
+{
+    "name": "Burpee Box Jumps",
+    "description": "8min AMRAP",
+    "excercises": [
+        "8 Burpee Box Jumps",
+        "16 Kettlebell Swings"
+    ],
+    "equipment": [
+        "boxjump",
+        "kettlebell"
+    ],
+    "tag": "Getting Started",
+    "permalink": "3E0BB090"
+},
+{
+    "name": "10 for 10",
+    "description": "10min AMRAP",
+    "excercises": [
+        "10 Kettlebell Swings",
+        "10 Box Jumps",
+        "10 Ring Dips"
+    ],
+    "equipment": [
+        "boxjump",
+        "kettlebell",
+        "rings"
+    ],
+    "tag": "Getting Started",
+    "permalink": "575FABB8"
+},
+{
+    "name": "Dumbells and Jump Ropes",
+    "description": "Max Reps",
+    "excercises": [
+        "3min Rope-Skipping",
+        "1min Rest",
+        "3min Weighted Sit-Ups",
+        "1min Rest",
+        "3min Weighted Lunges",
+        "1min Rest",
+        "3min Dumbell Thrusters"
+    ],
+    "equipment": [
+        "dumbbell",
+        "skippingrope"
+    ],
+    "tag": "",
+    "permalink": "555406D7"
+},
+{
+    "name": "Mini Murph",
+    "description": "For Time",
+    "excercises": [
+        "1mile Run",
+        "100 Push-Ups",
+        "200 Air-Squats",
+        "1mile Run"
+    ],
+    "equipment": [
+        "track"
+    ],
+    "tag": "Home-WOD",
+    "permalink": "D352A799"
+},
+{
+    "name": "Squats",
+    "description": "For Time",
+    "excercises": [
+        "300 Air Squats"
+    ],
+    "equipment": [],
+    "tag": "Home-WOD",
+    "permalink": "49FC4BDA"
+},
+{
+    "name": "Full-Body Sprint",
+    "description": "7 Rounds For Time",
+    "excercises": [
+        "10 Push-Ups",
+        "10 Air Squats",
+        "200m Run"
+    ],
+    "equipment": [
+        "track"
+    ],
+    "tag": "Home-WOD",
+    "permalink": "15F5CE11"
+},
+{
+    "name": "",
+    "description": "8 Rounds for Time",
+    "excercises": [
+        "10 Push-Ups",
+        "10 Air Squats",
+        "10 Burpees",
+        "10 Air Squats"
+    ],
+    "equipment": [],
+    "tag": "Home-WOD",
+    "permalink": "E9595427"
+},
+{
+    "name": "Well Rounded",
+    "description": "For Time",
+    "excercises": [
+        "400m Run",
+        "50 Air Squats",
+        "400m Run",
+        "50 Push-Ups",
+        "400m Run",
+        "50 Sit-Ups",
+        "400m Run"
+    ],
+    "equipment": [
+        "track"
+    ],
+    "tag": "Home-WOD",
+    "permalink": "C03E72CA"
+},
+{
+    "name": "Core Blaster",
+    "description": "For Time",
+    "excercises": [
+        "1mile Run",
+        "100 Sit-Ups",
+        "100 Superman",
+        "1mile Run"
+    ],
+    "equipment": [
+        "track"
+    ],
+    "tag": "Home-WOD",
+    "permalink": "51813EC5"
+},
+{
+    "name": "Leg Blaster",
+    "description": "10 Rounds AMRAMP",
+    "excercises": [
+        "30sec Max Reps Squat Jumps",
+        "30sec Rest"
+    ],
+    "equipment": [],
+    "tag": "Home-WOD",
+    "permalink": "71BD8586"
+},
+{
+    "name": "8min All-Out",
+    "description": "For Max Reps",
+    "excercises": [
+        "2min Push-Ups",
+        "1min Rest",
+        "2min Sit-Ups",
+        "1min Rest",
+        "2min Air Squats"
+    ],
+    "equipment": [],
+    "tag": "Home-WOD",
+    "permalink": "B8905DD9"
+},
+{
+    "name": "Long Distance Burpees",
+    "description": "For Time",
+    "excercises": [
+        "800m Burpee Broad Jumps"
+    ],
+    "equipment": [],
+    "tag": "Home-WOD",
+    "permalink": "3B561911"
+},
+{
+    "name": "Bodyweight Triplet",
+    "description": "21-15-9 Reps for Time",
+    "excercises": [
+        "Sit-Ups",
+        "Push-Ups",
+        "Air Squats"
+    ],
+    "equipment": [],
+    "tag": "Home-WOD",
+    "permalink": "F3BF0E2E"
+},
+{
+    "name": "Fantastic 50s",
+    "description": "For Time",
+    "excercises": [
+        "50 Jump Tucks",
+        "50 Push-Ups",
+        "50 Air Squats",
+        "50 Handstands",
+        "50 Walking Lunges",
+        "50 Sit-Ups",
+        "50sec L-Sit Hold",
+        "50 Burpees"
+    ],
+    "equipment": [],
+    "tag": "Home-WOD",
+    "permalink": "87C41E3A"
+},
+{
+    "name": "5K",
+    "description": "For Time",
+    "excercises": [
+        "5K Run"
+    ],
+    "equipment": [
+        "track"
+    ],
+    "tag": "Home-WOD",
+    "permalink": "1CCB2758"
+},
+{
+    "name": "Burpee Sprints",
+    "description": "5 2min Rounds for Max Reps",
+    "excercises": [
+        "10 Burpees",
+        "200m Run",
+        "Max-Rep Burpees",
+        "3min Rest"
+    ],
+    "equipment": [
+        "track"
+    ],
+    "tag": "Home-WOD",
+    "permalink": "5ED7C40D"
+},
+{
+    "name": "Durante Core",
+    "description": "5 Rounds for Time",
+    "excercises": [
+        "10 Hollow Rocks",
+        "10 V-Ups",
+        "10 Tuck Ups",
+        "10sec Hollow Hold",
+        "1min. Rest"
+    ],
+    "equipment": [],
+    "tag": "Home-WOD",
+    "permalink": "602CB700"
+},
+{
+    "name": "",
+    "description": "2 Rounds for Time",
+    "excercises": [
+        "50 Sit-Ups",
+        "100 Ropejumps",
+        "100 Flutter Kicks (per Leg)",
+        "100 Ropejumps",
+        "50 Leg Raises",
+        "100 Ropejumps",
+        "100 Mountain Climbers (per Leg)",
+        "100 Jump Ropes"
+    ],
+    "equipment": [
+        "skippingrope"
+    ],
+    "tag": "Home-WOD",
+    "permalink": "EFD9A6ED"
+},
+{
+    "name": "",
+    "description": "4 Rounds for Time",
+    "excercises": [
+        "30 V-Ups",
+        "60 Bicycle-Crunches",
+        "30 Weighted Sit-Ups",
+        "60 Flutter Kicks",
+        "30 Toe-Touches",
+        "60 Mountain Climbers",
+        "400m Run"
+    ],
+    "equipment": [
+        "track"
+    ],
+    "tag": "Home-WOD",
+    "permalink": "3F4E08ED"
+},
+{
+    "name": "Hold Tight!",
+    "description": "For Time",
+    "excercises": [
+        "2000m Row",
+        "75 Kettlebell-Swings",
+        "1500m Row",
+        "100 Push-Ups",
+        "1000m Row",
+        "75 Kettlebell-Swings"
+    ],
+    "equipment": [
+        "kettlebell",
+        "rower"
+    ],
+    "tag": "",
+    "permalink": "35161D09"
+},
+{
+    "name": "Row 30/30 x4",
+    "description": "4 Rounds for Max Distance",
+    "excercises": [
+        "30sec Rowing",
+        "30sec Rest"
+    ],
+    "equipment": [
+        "rower"
+    ],
+    "tag": "",
+    "permalink": "9686DF75"
+},
+{
+    "name": "Basic Bitch Booty Blaster",
+    "description": "15 Minute AMRAP",
+    "excercises": [
+        "20 Frog Pumps",
+        "20 Single Glute Bridges (10 each leg)",
+        "20 Air Squats",
+        "20 Lunges (10 each leg)"
+    ],
+    "equipment": [],
+    "tag": "",
+    "permalink": "406895D4"
+},
+{
+    "name": "Freddy Krueger",
+    "description": "21-15-9 Reps For Time",
+    "excercises": [
+        "Kettlebell-Swings",
+        "Burpees"
+    ],
+    "equipment": [
+        "kettlebell"
+    ],
+    "tag": "",
+    "permalink": "B59D0D5E"
+},
+{
+    "name": "Death Row",
+    "description": "20 Minute EMOM",
+    "excercises": [
+        "Odd Minutes: 20cal. Row",
+        "Even Minutes: 15 Burpees"
+    ],
+    "equipment": [
+        "rower"
+    ],
+    "tag": "",
+    "permalink": "4831CF9F"
+},
+{
+    "name": "Open 15.5",
+    "description": "27-21-15-9 Reps For Time",
+    "excercises": [
+        "Row (calories)",
+        "Thrusters"
+    ],
+    "equipment": [
+        "rower",
+        "barbell"
+    ],
+    "tag": "2015 CrossFit Games Open",
+    "permalink": "301E0264"
+},
+{
+    "name": 190102,
+    "description": "For Time",
+    "excercises": [
+        "9 Thrusters",
+        "1000m Row",
+        "15 Thrusters",
+        "1000m Row",
+        "21 Thrusters"
+    ],
+    "equipment": [
+        "rower",
+        "barbell"
+    ],
+    "tag": "CrossFit Daily",
+    "permalink": "4AAC6D7E"
+},
+{
+    "name": "Rowing Thrusters",
+    "description": "For Time",
+    "excercises": [
+        "1000m Row",
+        "50 Thrusters",
+        "40 Hand-Release Push-Ups",
+        "30 Kettlebell-Swings",
+        "20 Burpees",
+        "10 Pull-Ups",
+        "1000m Row"
+    ],
+    "equipment": [
+        "rower",
+        "barbell",
+        "kettlebell",
+        "pullupbar"
+    ],
+    "tag": "",
+    "permalink": "7B037149"
+},
+{
+    "name": "Surfer on Acid",
+    "description": "3 Rounds for Time",
+    "excercises": [
+        "400m Run",
+        "21 Burpees"
+    ],
+    "equipment": [
+        "track"
+    ],
+    "tag": "",
+    "permalink": "45D575E2"
+},
+{
+    "name": "The General",
+    "description": "5 Rounds for Time",
+    "excercises": [
+        "35cal Row",
+        "5 Deadlifts",
+        "3 Power Cleans"
+    ],
+    "equipment": [
+        "rower",
+        "barbell"
+    ],
+    "tag": "",
+    "permalink": "986216A7"
+},
+{
+    "name": "Lumpy",
+    "description": "3 Rounds for Time",
+    "excercises": [
+        "250m Row",
+        "6 Power Cleans",
+        "6 Thrusters",
+        "9 Deadlifts",
+        "9 Sumo Deadlift High-Pulls"
+    ],
+    "equipment": [
+        "rower",
+        "barbell"
+    ],
+    "tag": "",
+    "permalink": "279FF16F"
+},
+{
+    "name": "Blake Dremann",
+    "description": "For Time",
+    "excercises": [
+        "1000m Row",
+        "50 Push-Ups",
+        "30 Bodyweight-Deadlifts",
+        "40 Push-Ups",
+        "20 Bodywight-Deadlifts",
+        "30 Push-Ups",
+        "10 Bodyweight-Deadlifts",
+        "1000m Row"
+    ],
+    "equipment": [
+        "rower",
+        "barbell"
+    ],
+    "tag": "",
+    "permalink": "3B46D3AB"
+},
+{
+    "name": "Zachary Tellier",
+    "description": "For Time",
+    "excercises": [
+        "10 Burpees",
+        "10 Burpess",
+        "25 Push-Ups",
+        "10 Burpees",
+        "25 Push-Ups",
+        "50 Lunges",
+        "10 Burpess",
+        "25 Push-Ups",
+        "50 Lunges",
+        "100 Sit-Ups",
+        "10 Burpess",
+        "25 Push-Ups",
+        "50 Lunges",
+        "100 Sit-Ups",
+        "150 Air Squats"
+    ],
+    "equipment": [],
+    "tag": "",
+    "permalink": "F334E00C"
+},
+{
+    "name": "The Happening",
+    "description": "For Time",
+    "excercises": [
+        "10-20-30-40-50-60-70-80-90-100 Alternating Lunges",
+        "10 Burpees after each Set"
+    ],
+    "equipment": [],
+    "tag": "",
+    "permalink": "8F9AEE15"
+},
+{
+    "name": "Bare Arsed",
+    "description": "6 Rounds for Time",
+    "excercises": [
+        "20 Air Squats",
+        "10 Hand Release Push-Ups",
+        "20 Lunges",
+        "10 Burpees"
+    ],
+    "equipment": [],
+    "tag": "",
+    "permalink": "7F191118"
+},
+{
+    "name": "AMBAP",
+    "description": "5 Minute Partner AMRAP",
+    "excercises": [
+        "Burpees"
+    ],
+    "equipment": [],
+    "tag": "",
+    "permalink": "940F789B"
+},
+{
+    "name": "The Climb",
+    "description": "5 Rounds for Reps / 90sec AMRAP + 90sec Rest",
+    "excercises": [
+        "40 Mountain Climbers",
+        "10 Sit-Ups",
+        "Max Lunges"
+    ],
+    "equipment": [],
+    "tag": "",
+    "permalink": "92B20D64"
+},
+{
+    "name": "Nicole Upside Down",
+    "description": "20 Minute AMRAP",
+    "excercises": [
+        "Max unbroken Shoulder Taps",
+        "400m Run"
+    ],
+    "equipment": [],
+    "tag": "",
+    "permalink": "67E2E5B8"
+}
 ]

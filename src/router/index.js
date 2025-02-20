@@ -1,26 +1,23 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router';
 
-import Wod from './../components/Wod.vue'
+// Define your routes
+const routes = [
+  {
+    path: '/home',
+    name: 'Home',
+    component: () => import('@/components/WodComponent.vue')
+  },
+  {
+    path: '/wod/:permalink',
+    name: 'Permalink',
+    component: () => import('@/components/WodComponent.vue')
+  }
+  // Add more routes as needed
+];
 
-Vue.use(VueRouter);
-
-const routes = [{
-        path: '/home',
-        name: 'Home',
-        component: Wod
-    },
-    {
-        path: '/wod/:permalink',
-        name: 'Permalink',
-        component: Wod
-    }
-]
-
-const router = new VueRouter({
-    mode: "history",
-    base: process.env.BASE_URL,
-    routes
-})
+const router = createRouter({
+  history: createWebHistory(process.env.BASE_URL),
+  routes
+});
 
 export default router;

@@ -1,11 +1,14 @@
 <template>
-    <div class="loading-ring"></div>
+  <div class="loading-ring"></div>
 </template>
 
-<style scoped lang="scss">
+<script setup>
+/* No JavaScript logic is needed here. */
+</script>
 
+<style scoped lang="scss">
 .loading-container {
-    width: 100%;
+  width: 100%;
 }
 
 .loading-ring {
@@ -34,5 +37,4 @@
     transform: rotate(360deg);
   }
 }
-
 </style>

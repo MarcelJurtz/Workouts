@@ -1,11 +1,24 @@
-# Workouts - Functional Fitness Workout Library
+# workouts-frontend
 
-I always had the problem that I was looking for CF-style Workouts to do at home, but wasn't really motivated to sort out any workouts from catalogs by equipment that's available to me. I built this App to build my own catalog of workouts, which I can filter by available equipment.
+## Project setup
+```
+npm install
+```
 
-The app itself is functional, however, the catalog is not that extensive yet.
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-## Roadmap
-* Extend the list of available workouts
-* Filter / Blacklist specific excercises, eg. complex / compound barbell movements
-* Implement routing to access and share workouts by permalinks
-* Add a feature to export workouts as image, also use this to share workouts on instagram
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
